@@ -10,9 +10,16 @@
 
 /* General styles */
 body {
-    position: flex;
+    display: flex;
+    font-family: Merriweather, sans-serif;
 }
 
 h1 {
     font-size: 200%;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
 }
