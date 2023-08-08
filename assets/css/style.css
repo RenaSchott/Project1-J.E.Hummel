@@ -7,3 +7,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    position: flex;
+}
+
+h1 {
+    font-size: 200%;
+}
