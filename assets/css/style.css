@@ -55,14 +55,6 @@ header a {
     color: rgb(179, 172, 172);
 }
 
-#menu a:hover {
-    color: black;
-}
-
-header h2 {
-    
-}
-
 /* Main content */
 main {
     /*Add margin-top to prevent content from being covered by header */
@@ -106,5 +98,9 @@ footer > h3 {
 @media screen and (min-width: 992px){
     #hero-image {
         background-repeat: no-repeat;
+
+    #menu a:hover {
+            color: black;
+        }
     }
 }
