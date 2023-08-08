@@ -68,19 +68,6 @@ main {
 }
 
 /* Footer */
-footer {
-    color: green;
-    background-color: yellow;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    z-index: 3;
-}
-
 
 
 /* add background-repeat: no-repeat; */
