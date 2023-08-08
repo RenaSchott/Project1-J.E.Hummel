@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    display: flex;
+    /* display: flex; */
     font-family: Merriweather, sans-serif;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 #menu {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 /* Main content */
