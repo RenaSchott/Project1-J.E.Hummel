@@ -15,6 +15,7 @@ body {
     min-height: 100vh;
     letter-spacing: 2px;
     display: flex;
+    flex-direction:column;
 }
 
 h1 {
@@ -62,6 +63,7 @@ main {
     color: red;
 }
 
+/* Image source wikipedia */
 #hero-image {
     background-image: url("../../assets/images/Hummelwilhelmshöhe1800.webp");
     height: 100%;
@@ -69,6 +71,22 @@ main {
 
 /* Footer */
 
+footer > h3 {
+    text-align: center;
+}
+
+#social-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+    font-size: 200%;
+    color: blue; 
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
