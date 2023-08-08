@@ -24,8 +24,20 @@ header {
     flex-direction: row;
     width: 100%;
     height: 100px;
+    color: yellow
 }
 
 #menu {
     text-decoration: none;
 }
+
+/* Main content */
+main {
+    color: red;
+}
+
+/* Footer */
+footer {
+    color: green;
+}
+
