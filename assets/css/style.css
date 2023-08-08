@@ -65,17 +65,21 @@ main {
     flex: 1 0 auto;
 }
 
-/* Image source wikipedia */
+/* Image source: wikipedia */
 #hero-image {
     background-image: url("../../assets/images/Hummelwilhelmshöhe1800.webp");
-    height: 100%;
+    height: 637px;
+    position: relative;
 }
 
 /* Footer */
 
+footer {
+    background-color: beige;
+}
+
 footer > h3 {
     text-align: center;
-    background-color: beige;
 }
 
 #social-networks {
