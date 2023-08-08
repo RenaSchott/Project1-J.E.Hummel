@@ -10,7 +10,6 @@
 
 /* General styles */
 body {
-    /* display: flex; */
     font-family: Merriweather, sans-serif;
     width: 100vw;
     min-height: 100vh;
@@ -31,18 +30,22 @@ header {
     height: 100px;
     color: yellow;
     background-color: red;
+    /* fix header at the top */
     position: fixed;
 }
 
+/* remove dots from list element */
 #menu {
     list-style-type: none;
 }
 
+/* remove underlining from link default */
 header a {
     text-decoration: none;
     color: white;
 }
 
+/* indicate the current page in the navbar */
 .active {
     text-decoration: underline;
     color: rgb(179, 172, 172)
@@ -54,6 +57,8 @@ header a {
 
 /* Main content */
 main {
+    /*Add margin-top to prevent content from being covered by header */
+    margin-top: 100px;
     color: red;
 }
 
