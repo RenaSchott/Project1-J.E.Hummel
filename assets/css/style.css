@@ -13,7 +13,7 @@ body {
     /* display: flex; */
     font-family: Merriweather, sans-serif;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     letter-spacing: 2px;
     display: flex;
 }
@@ -49,11 +49,11 @@ header {
 /* Main content */
 main {
     color: red;
-    background-color: green;
 }
 
 #hero-image {
-    background-image: url(assets/images/Hummelwilhelmshöhe1800.webp);
+    background-image: url("../../assets/images/Hummelwilhelmshöhe1800.webp");
+    height: 100%;
 }
 
 /* Footer */
@@ -66,6 +66,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    text-align: center;z-index: 3;
+    text-align: center;
+    z-index: 3;
 }
 
