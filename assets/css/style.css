@@ -48,7 +48,7 @@ header a {
 /* indicate the current page in the navbar */
 .active {
     text-decoration: underline;
-    color: rgb(179, 172, 172)
+    color: rgb(179, 172, 172);
 }
 
 #menu a:hover {
@@ -70,7 +70,9 @@ main {
 /* Footer */
 
 
-/* add background-repeat: no-repeat; */
-@media screen {
-    
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px){
+    #hero-image {
+        background-repeat: no-repeat;
+    }
 }
