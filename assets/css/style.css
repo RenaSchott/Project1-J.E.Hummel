@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     letter-spacing: 2px;
+    display: flex;
 }
 
 h1 {
@@ -35,6 +36,9 @@ header {
 
 #menu {
     list-style-type: none;
+}
+
+#menu > a {
     color: white;
 }
 
@@ -46,8 +50,6 @@ header {
 main {
     color: red;
     background-color: green;
-    margin-top: 100px;
-    display: flex;
 }
 
 #hero-image {
