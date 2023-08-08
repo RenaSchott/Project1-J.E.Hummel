@@ -38,8 +38,14 @@ header {
     list-style-type: none;
 }
 
-#menu > a {
+header a {
+    text-decoration: none;
     color: white;
+}
+
+.active {
+    text-decoration: underline;
+    color: rgb(179, 172, 172)
 }
 
 #menu:hover {
