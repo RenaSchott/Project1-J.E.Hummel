@@ -99,17 +99,31 @@ footer > h3 {
 
 
 /* Johann Friedrich Hummel page */
-h2 {
+#main-jfh {
+    display: flex;
+    flex-direction: column;
+}
+
+#jfh {
     text-align: center;
+}
+
+.jfhummel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
     #hero-image {
         background-repeat: no-repeat;
-
+    }
+        
     #menu a:hover {
             color: black;
         }
-    }
+    
 }
