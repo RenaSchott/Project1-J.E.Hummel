@@ -97,10 +97,12 @@ footer > h3 {
 
 
 /* biography */
+/* Image source book of Georg Hummel */
 #biography-jeh {
     background-image: url(../../assets/images/selfportrait.webp);
     height: 637px;
     position: relative;
+    background-position: center;
 }
 
 
@@ -126,7 +128,7 @@ footer > h3 {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
-    #hero-image {
+    #hero-image, #biography-jeh {
         background-repeat: no-repeat;
     }
         
