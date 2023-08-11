@@ -96,6 +96,14 @@ footer > h3 {
 }
 
 
+/* biography */
+#biography-jeh {
+    background-image: url(../../assets/images/selfportrait.webp);
+    height: 637px;
+    position: relative;
+}
+
+
 
 
 /* Johann Friedrich Hummel page */
