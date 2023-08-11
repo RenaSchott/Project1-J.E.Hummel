@@ -97,13 +97,18 @@ footer > h3 {
 
 
 /* biography */
-/* Image source book of Georg Hummel */
+/*Stil passt noch überhaupt nicht zum Smartphone!!! */
 #biography-jeh {
-    background-image: url(../../assets/images/selfportrait.webp);
+    background-image: url("../../assets/images/selfportrait.webp");
     height: 637px;
-    position: relative;
     background-position: center;
+    position: relative;
 }
+
+#self-port {
+    visibility: hidden;
+}
+
 
 
 
@@ -135,5 +140,10 @@ footer > h3 {
     #menu a:hover {
             color: black;
         }
+
+    /* Biography */
+    #biography-jeh {
+        background-image: none;
+    }
     
 }
