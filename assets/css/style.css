@@ -38,6 +38,7 @@ header {
     background-color: beige;
     /* fix header at the top */
     position: fixed;
+    z-index: 99;
 }
 
 /* remove dots from list element */
@@ -69,13 +70,32 @@ main {
     height: auto;
 }
 
-.main-scrollable {
+.main-scrollable {    
+    background-color: #dfab53;
     position: relative;
-}
-
-.footer-scrollable {
-    positiob: relative;
-    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    bottom: 100px;
+    /* scrollbar changes (https: //www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+    
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+    
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+    
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
 }
 
 
@@ -102,6 +122,12 @@ footer > h3 {
     font-size: 200%;
     /* How to change the color to black? */
     color: black; 
+}
+
+.footer-scrollable {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -373,12 +399,6 @@ footer > h3 {
 
 
 /* Exhibitions */
-/* background styling */
-#ex-backg {
-    background-color: #dfab53;
-    position: relative;
-}
-
 /* general content style */
 #ex-div {
     position: absolute;
@@ -409,8 +429,9 @@ footer > h3 {
     margin-top: 20px;
 }
 
-
-
+ #div-ex {
+     background-color: #dfab53;
+ }
 
 /* Johann Friedrich Hummel page */
 #main-jfh {
