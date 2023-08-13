@@ -458,6 +458,27 @@ legend {
     font-weight: bold;
 }
 
+#buttons-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+.buttons {
+    font-size: 20px;
+    padding: 3px;
+    background-color: rgb(194, 173, 173);
+}
+
+/*  background-color: #4CAF50;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px; */
+
 
 /* Johann Friedrich Hummel page */
 #main-jfh {
