@@ -540,6 +540,30 @@ div.desc {
     .ex-break {
         display: none;
     }
+
+
+    /* Contactform */
+    legend {
+        padding-top: 40px;
+        font-size: 220%;
+    }
+
+    .form-box {
+        margin: 30px 20px 0;
+        border: 3px solid black;
+        padding: 5px;
+        font-size: 120%;
+    }
+
+    /* Buttons */
+    #buttons-div {
+        margin-top: 30px;
+    }
+
+    .buttons {
+        font-size: 25px;
+        padding: 5px;
+    }
 }
 
 
@@ -578,5 +602,26 @@ div.desc {
     /* Exhibition */
     .ex-break {
         display: none;
+    }
+
+
+    /* Contactform */
+    legend {
+        font-size: 280%;
+    }
+
+    .form-box {
+        margin: 20px 40px 0;
+        font-size: 130%;
+    }
+    
+    /* Buttons */
+    #buttons-div {
+        margin-top: 25px;
+    }
+
+    .buttons {
+        font-size: 28px;
+        padding: 8px;
     }
 }
