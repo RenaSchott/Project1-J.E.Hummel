@@ -65,6 +65,15 @@ main {
     height: auto;
 }
 
+.main-scrollable {
+    position: relative;
+}
+
+.footer-scrollable {
+    positiob: relative;
+    bottom: 0;
+}
+
 /* Footer */
 
 footer {
