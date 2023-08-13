@@ -409,16 +409,20 @@ footer > h3 {
     position: relative;
 }
 
-/* H2 Styling */
+/* Heading Stylings */
 .ex-h2 {
     color: rgb(78, 76, 76);
     text-align: center;
 }
 
+.ex-h3, .ex-link{
+    margin-top: 15px;
+    color: rgb(124, 116, 116);
+}
+
 /* individual link decoration */
 .ex-link {
     text-decoration: none;
-    color: rgb(124, 116, 116);
 }
 
 /* gaps to div above */
