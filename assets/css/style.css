@@ -70,7 +70,7 @@ main {
     height: auto;
 }
 
-.main-scrollable {    
+.body-scrollable {    
     background-color: #dfab53;
     position: relative;
     display: flex;
