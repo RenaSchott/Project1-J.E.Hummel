@@ -41,9 +41,51 @@
 
     <!-- Main Section -->
     <main>
-       <form>
-        
-       </form>
+       <form action="https://contactform.mysite.net/" method="post">
+            <legend>More about J.E. Hummel</legend>
+            <p>Please fill out the applicable fields</p>
+            <!-- exhibition or publication? -->
+            <div>
+                <p>1. Do you have news about a not mentioned exhibition or publication?</p>
+                <input type="radio" id="exhibition" name="kind-of-info" value="exhibition">
+                <label for="exhibition">Exhibition</label>
+                <input type="radio" id="publication" name="kind-of-info" value="publication">
+                <label for="publication">Publication</label>
+                <p>If you chose publication please go to question 4!</p>
+            </div>
+            <!-- shortterm or permanent exhibition -->
+            <div>
+                <p>2. What type of exhibition is it? (Only necessary if it is an information about an exhibition)</p>
+                <input type="radio" id="short-exhibition" name="exhibition-type" value="short-exhibition">
+                <label for="short-exhibition">Shortterm Exhibition</label>
+                <input type="radio" id="long-exhibition" name="exhibition-type" value="long-exhibition">
+                <label for="long-exhibition">Permanent Exhibition</label>
+                <p>If you chose permanent exhibition please skip the next question!</p>
+            </div>
+            <!-- Start and end date of a shortterm exhibition -->
+            <div>
+                <p>3. What are the starting and end days of the shortterm exhibition?</p>
+                <input type="date" id="start" name="start-date" value="start">
+                <label for="start">Start Date</label>
+                <input type="date" id="end" name="end-date" value="end">
+                <label for="end">End Date</label>
+            </div>
+            <!-- URL -->  
+            <div>
+                <p>4. On which site can I find more informations?</p>
+                <input type="url" id="site" name="site" placeholder="url" required>
+                <label for="site"></label>
+            </div>         
+            <!-- additional, optional information -->
+            <div>
+                <p>5. Do you want to give additional information? (optional)</p>
+                <input type="text" id="add-info" name="add-info" placeholder="More information (optional)" size="50">
+                <label for="add-info"></label>
+            </div>
+            <!-- Buttons -->
+            <input type="submit" value="Send it!">
+            <input type="reset" value="Reset">
+        </form>
     </main>
 
     <!-- Footer Section -->
