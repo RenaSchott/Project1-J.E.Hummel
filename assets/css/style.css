@@ -374,10 +374,12 @@ footer > h3 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
-
+/* Eyhibitions */
+#ex-backg {
+    background-color: #b88428;
+}
 
 /* Image Gallery from https: //www.w3schools.com/css/css_image_gallery.asp */
 div.gallery {
