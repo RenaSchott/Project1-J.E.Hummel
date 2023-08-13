@@ -421,14 +421,16 @@ footer > h3 {
     color: rgb(124, 116, 116);
 }
 
-/* gap to div above */
-#ex-short {
+/* gaps to div above */
+#ex-short, #ex-pub {
     margin-top: 20px;
 }
 
- #div-ex {
-     background-color: #dfab53;
- }
+#ex-help {
+    margin-top: 30px;
+    color: rgb(92, 5, 5);
+}
+
 
 /* Johann Friedrich Hummel page */
 #main-jfh {
