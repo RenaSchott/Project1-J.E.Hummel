@@ -435,18 +435,19 @@ footer > h3 {
 
 
 /* Contactform */
-legend {
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 120%;
-}
-
+/* Style for main section */
 #form {
     background-color: #dfab53;
     margin: 0px;
     height: 82vh;
     position: relative;
+}
+
+legend {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 .form-box {
@@ -458,6 +459,7 @@ legend {
     font-weight: bold;
 }
 
+/* Buttons */
 #buttons-div {
     display: flex;
     justify-content: space-around;
@@ -469,15 +471,6 @@ legend {
     padding: 3px;
     background-color: rgb(194, 173, 173);
 }
-
-/*  background-color: #4CAF50;
- border: none;
- color: white;
- padding: 15px 32px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 16px; */
 
 
 /* Johann Friedrich Hummel page */
