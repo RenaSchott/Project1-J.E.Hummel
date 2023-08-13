@@ -365,9 +365,13 @@ footer > h3 {
 }
 
 .ex-h2 {
-    position: absolute;
-    top: 50px;
-    color: white;
+    color: rgb(78, 76, 76);
+}
+
+.ex-link {
+    text-decoration: none;
+    color: rgb(124, 116, 116);
+    font-size: 80%;
 }
 
 /* Johann Friedrich Hummel page */
