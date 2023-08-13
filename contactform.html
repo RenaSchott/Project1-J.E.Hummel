@@ -51,7 +51,7 @@
                     <label for="exhibition">Exhibition</label>
                     <input type="radio" id="publication" name="kind-of-info" value="publication">
                     <label for="publication">Publication</label>
-                    <p>If you chose publication please go to question 4!</p>
+                    <p class="con-p">If you chose publication please go to question 4!</p>
                 </div>
                 <!-- shortterm or permanent exhibition -->
                 <div class="form-box">
@@ -61,20 +61,21 @@
                     <br>
                     <input type="radio" id="long-exhibition" name="exhibition-type" value="long-exhibition">
                     <label for="long-exhibition">Permanent Exhibition</label>
-                    <p>If you chose permanent exhibition please skip the next question!</p>
+                    <p class="con-p">If you chose permanent exhibition please skip the next question!</p>
                 </div>
                 <!-- Start and end date of a shortterm exhibition -->
                 <div class="form-box">
                     <p>3. What are the starting and end days of the shortterm exhibition?</p>
+                    <label for="start">Start Date:</label>
                     <input type="date" id="start" name="start-date" value="start">
-                    <label for="start">Start Date</label>
+                    <br>
+                    <label for="end">End Date:</label>
                     <input type="date" id="end" name="end-date" value="end">
-                    <label for="end">End Date</label>
                 </div>
                 <!-- URL -->
                 <div class="form-box">
                     <p>4. On which site can I find more informations?</p>
-                    <input type="url" id="site" name="site" placeholder="url" required>
+                    <input type="url" id="site" name="site" placeholder="url" size="45" required>
                     <label for="site"></label>
                 </div>
                 <!-- additional, optional information -->
