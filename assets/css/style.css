@@ -434,6 +434,18 @@ footer > h3 {
 }
 
 
+/* Contactform */
+#form {
+    background-color: #dfab53;
+    margin: 0;
+    padding: 20px 20px 100px;;
+}
+
+.form-box {
+    border: 3px solid black;
+}
+
+
 /* Johann Friedrich Hummel page */
 #main-jfh {
     display: flex;
