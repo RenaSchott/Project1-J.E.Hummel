@@ -1,12 +1,14 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
 /* Override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 
 /* General styles */
 body {
@@ -22,6 +24,7 @@ h1 {
     font-size: 200%;
     text-align: center;
 }
+
 
 /* Header */
 header {
@@ -55,6 +58,7 @@ header a {
     color: rgb(179, 172, 172);
 }
 
+
 /* Main content */
 main {
     /*Add margin-top to prevent content from being covered by header */
@@ -74,8 +78,8 @@ main {
     bottom: 0;
 }
 
-/* Footer */
 
+/* Footer */
 footer {
     background-color: beige;
     height: 8vh;
@@ -99,6 +103,7 @@ footer > h3 {
     /* How to change the color to black? */
     color: black; 
 }
+
 
 /* Index */
 /* Image source: wikipedia */
@@ -125,6 +130,7 @@ footer > h3 {
     right: 10px;
     display: block;
 }
+
 
 /* biography */
 #self-port {
@@ -153,6 +159,7 @@ footer > h3 {
 }
 
 /* Anchor link color change */
+
 
 /* Paintings */
 /* CSS-only Carousel found on: https: //codepen.io/Schepp/pen/WNbQByE created by Christian Schaefer; unneccessary things were deleted */
@@ -364,6 +371,7 @@ footer > h3 {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
+
 /* Exhibitions */
 /* background styling */
 #ex-backg {
@@ -396,10 +404,12 @@ footer > h3 {
     color: rgb(124, 116, 116);
 }
 
-/*gap to div above */
+/* gap to div above */
 #ex-short {
     margin-top: 20px;
 }
+
+
 
 
 /* Johann Friedrich Hummel page */
@@ -441,6 +451,7 @@ div.desc {
     text-align: center;
 }
 
+
 /* Larger devices (tablets, 768px and up) */
 /* Index*/
 @media screen and (min-width: 768px){
@@ -456,7 +467,14 @@ div.desc {
         right: 300px;
         font-size: 120%;
     }
+
+
+    /* Exhibition */
+    .ex-break {
+        display: none;
+    }
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 /* Index*/
@@ -473,7 +491,6 @@ div.desc {
         right: 600px;
         font-size: 160%;
         }        
-    }
 
     #hero-image, #biography-jeh {
         background-repeat: no-repeat;
@@ -484,9 +501,15 @@ div.desc {
             color: black;
         }
 
+
     /* Biography */
     #biography-jeh {
         background-image: none;
     }
-    
+
+
+    /* Exhibition */
+    .ex-break {
+        display: none;
+    }
 }
