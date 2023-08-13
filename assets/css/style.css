@@ -435,7 +435,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    max-width: 90%;
+    height: 250px;
     border: 1px solid black;
 }
 
