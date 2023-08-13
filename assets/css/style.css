@@ -356,23 +356,42 @@ footer > h3 {
 }
 
 /* Exhibitions */
+/* background styling */
 #ex-backg {
     background-color: #dfab53;
+    position: relative;
 }
 
+/* general content style */
+#ex-div {
+    position: absolute;
+    margin: 10px;
+    /* readability improvement */
+    line-height: 150%;
+}
+
+/* position of divs */
 .ex {
     position: relative;
 }
 
+/* H2 Styling */
 .ex-h2 {
     color: rgb(78, 76, 76);
+    text-align: center;
 }
 
+/* individual link decoration */
 .ex-link {
     text-decoration: none;
     color: rgb(124, 116, 116);
-    font-size: 80%;
 }
+
+/*gap to div above */
+#ex-short {
+    margin-top: 20px;
+}
+
 
 /* Johann Friedrich Hummel page */
 #main-jfh {
