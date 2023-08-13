@@ -429,6 +429,8 @@ footer > h3 {
 #ex-help {
     margin-top: 30px;
     color: rgb(92, 5, 5);
+    padding: 5px;
+    border: 5px solid rgb(92, 5, 5);
 }
 
 
