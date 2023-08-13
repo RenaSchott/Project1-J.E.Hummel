@@ -442,44 +442,37 @@ div.desc {
 }
 
 /* Larger devices (tablets, 768px and up) */
+/* Index*/
 @media screen and (min-width: 768px){
-    main h2 {
+    #index-h2 {
         top: 45px;
-        left: 120px;
-    }
-    .h2 {
+        left: 150px;
         font-size: 200%;
     }
-    main p {
+   
+    #summary {
         top: 100px;
         left: 100px;
         right: 300px;
-    }
-    
-    #summary {
         font-size: 120%;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+/* Index*/
 @media screen and (min-width: 992px){
-    main h2 {
+    #index-h2 {
         top: 60px;
-        left: 100px;
-    }
-
-    .h2 {
+        left: 400px;
         font-size: 260%;
     }
-    
-    main p {
+   
+    #summary {
         top: 130px;
         left: 100px;
-        right: 350px;
-        }
-
-    #summary {
+        right: 600px;
         font-size: 160%;
+        }        
     }
 
     #hero-image, #biography-jeh {
