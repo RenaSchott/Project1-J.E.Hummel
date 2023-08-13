@@ -430,6 +430,21 @@ footer > h3 {
     margin-top: 20px;
 }
 
+/* partly inspired from https: //www.w3schools.com/css/css_align.asp */
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 1px solid black;
+}
+
+/* publication section */
+#ex-pub {
+    margin-left: 10px;
+}
+
+/* div for text and link to form page */
 #ex-help {
     margin-top: 30px;
     color: rgb(92, 5, 5);
