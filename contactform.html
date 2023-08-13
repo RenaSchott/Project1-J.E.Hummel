@@ -43,8 +43,7 @@
     <main>
         <div id="form">
             <form action="https://contactform.mysite.net/" method="post">
-                <legend>More about J.E. Hummel</legend>
-                <p>Please fill out the applicable fields</p>
+                <legend>Please fill out the applicable fields</legend>
                 <!-- exhibition or publication? -->
                 <div class="form-box">
                     <p>1. Do you have news about a not mentioned exhibition or publication?</p>
@@ -59,6 +58,7 @@
                     <p>2. What type of exhibition is it? (Only necessary if it is an information about an exhibition)</p>
                     <input type="radio" id="short-exhibition" name="exhibition-type" value="short-exhibition">
                     <label for="short-exhibition">Shortterm Exhibition</label>
+                    <br>
                     <input type="radio" id="long-exhibition" name="exhibition-type" value="long-exhibition">
                     <label for="long-exhibition">Permanent Exhibition</label>
                     <p>If you chose permanent exhibition please skip the next question!</p>
@@ -80,12 +80,14 @@
                 <!-- additional, optional information -->
                 <div class="form-box">
                     <p>5. Do you want to give additional information? (optional)</p>
-                    <input type="text" id="add-info" name="add-info" placeholder="More information (optional)" size="50">
+                    <input type="text" id="add-info" name="add-info" placeholder="More information (optional)" size="45">
                     <label for="add-info"></label>
                 </div>
                 <!-- Buttons -->
-                <input type="submit" value="Send it!">
-                <input type="reset" value="Reset">
+                <div id="buttons">
+                    <input type="submit" value="Send it!">
+                    <input type="reset" value="Reset">
+                </div>
             </form>
         </div>
     </main>
