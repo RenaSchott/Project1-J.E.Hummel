@@ -435,7 +435,7 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90%;
+    width: 90%;
     height: 250px;
     border: 1px solid black;
 }
@@ -561,6 +561,45 @@ div.desc {
         display: none;
     }
 
+    /* Heading Stylings */
+    .ex-h2 {
+        font-size: 200%;
+    }
+    
+    .ex-h3,
+    .ex-link {
+        margin-left: 10px;
+    }
+    
+    /* gaps to div above */
+    #ex-short,
+    #ex-pub {
+        margin-top: 30px;
+    }
+
+    /* Flex */
+    .ex-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* partly inspired from https: //www.w3schools.com/css/css_align.asp */
+    iframe {
+        width: 70%;
+        height: 300px;
+        border: 2px solid black;
+    }
+    
+    .ex-p {
+        max-width: 20%;
+        padding-top: 80px;
+    }
+
+    /* publication section */
+    #ex-pub {
+        margin-left: 20px;
+    }
+
 
     /* Contactform */
     legend {
@@ -619,10 +658,34 @@ div.desc {
     }
 
 
-    /* Exhibition */
-    .ex-break {
-        display: none;
-    }
+   /* Exhibition */
+   /* Heading Stylings */
+   .ex-h2 {
+       font-size: 260%;
+   }
+
+   .ex-h3,
+   .ex-link {
+       margin: 30px 0 20px 30px;
+       font-size: 130%;
+   }
+
+   /* partly inspired from https: //www.w3schools.com/css/css_align.asp */
+   iframe {
+       height: 400px;
+       border: 3px solid black;
+   }
+
+   .ex-p {
+       max-width: 20%;
+       padding-top: 140px;
+       padding-left: 100px;
+   }
+
+   /* publication section */
+   #ex-pub, #shortex-p {
+       margin-left: 80px;
+   }
 
 
     /* Contactform */
