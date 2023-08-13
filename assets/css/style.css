@@ -65,32 +65,6 @@ main {
     height: auto;
 }
 
-/* Index */
-/* Image source: wikipedia */
-#hero-image {
-    background-image: url("../../assets/images/Hummelwilhelmshöhe1800.webp");
-    height: 82vh;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-}
-
-main h2 {
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    text-align: center;
-    color:rgb(88, 76, 76);
-}
-
-main p {
-    position: absolute;
-    top: 150px;
-    left: 10px;
-    right: 10px;
-    display: block;
-}
-
 /* Footer */
 
 footer {
@@ -117,6 +91,31 @@ footer > h3 {
     color: black; 
 }
 
+/* Index */
+/* Image source: wikipedia */
+#hero-image {
+    background-image: url("../../assets/images/Hummelwilhelmshöhe1800.webp");
+    height: 82vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#index-h2 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    text-align: center;
+    color: rgb(88, 76, 76);
+}
+
+#summary {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    right: 10px;
+    display: block;
+}
 
 /* biography */
 #self-port {
@@ -356,8 +355,20 @@ footer > h3 {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
+/* Exhibitions */
+#ex-backg {
+    background-color: #dfab53;
+}
 
+.ex {
+    position: relative;
+}
 
+.ex-h2 {
+    position: absolute;
+    top: 50px;
+    color: white;
+}
 
 /* Johann Friedrich Hummel page */
 #main-jfh {
@@ -374,11 +385,6 @@ footer > h3 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-/* Eyhibitions */
-#ex-backg {
-    background-color: #dfab53;
 }
 
 /* Image Gallery from https: //www.w3schools.com/css/css_image_gallery.asp */
