@@ -63,6 +63,25 @@ header a {
     color: rgb(179, 172, 172);
 }
 
+/* Navbar styles with dropdown toggle inspired from love running project */
+nav {
+    position: absolute;
+    display: none;
+}
+
+/* Nav toggle */
+#burger-icon:checked~nav {
+    display: block;
+}
+
+#burger-icon {
+    display: none;
+}
+
+.burger-icon-label {
+    font-size: 2rem;
+}
+
 
 /* Main content */
 main {
@@ -544,6 +563,19 @@ div.desc {
 
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px){
+    /* General stylings */
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        font-size: 120%;
+    }
+
+    .burger-icon-label {
+        display: none;
+    }
+
+
     /* Footer */
     footer>h3 {
         font-size: 100%;
@@ -641,6 +673,20 @@ div.desc {
 /* Large devices (laptops and desktops, 992px and up) */
 
 @media screen and (min-width: 992px){
+    /* General stylings */
+    /* Header */
+    nav {
+        font-size: 150%;
+    }
+
+    #menu {
+        display: flex;
+    }
+    
+    #menu>li {
+        padding-left: 1vw;
+    }
+
     /* Index*/
     #index-h2 {
         top: 60px;
