@@ -41,6 +41,10 @@ header {
     z-index: 99;
 }
 
+header > img {
+    height: 10vh;
+}
+
 /* remove dots from list element */
 #menu {
     list-style-type: none;
