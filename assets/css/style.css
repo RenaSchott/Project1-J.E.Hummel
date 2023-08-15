@@ -370,6 +370,29 @@ div.desc {
     text-align: center;
 }
 
+/* Error pages */
+ .error-image {
+     background-image: url("assets/images/construction.webp");
+     width: 100vw;
+     height: auto;
+     margin: 0;
+     padding: 0;
+ }
+
+ h1-error {
+     padding: 30px;
+     font-size: 230%;
+     color: red;
+     font-weight: bolder;
+     text-align: center;
+ }
+
+ p-error {
+     margin: 20%;
+     font-size: 180%;
+     font-weight: bold;
+     text-align: center;
+ }
 
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px){
