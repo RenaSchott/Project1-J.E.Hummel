@@ -23,6 +23,7 @@ body {
 h1 {
     font-size: 200%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -48,6 +49,7 @@ header > img {
 /* remove dots from list element */
 #menu {
     list-style-type: none;
+    height: 100%;
 }
 
 /* remove underlining from link default */
