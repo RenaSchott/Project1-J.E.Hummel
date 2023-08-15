@@ -449,6 +449,44 @@ div.desc {
         font-size: 120%;
     }
 
+
+    /*Biography */
+    #biography-jeh {
+        background-image: none;
+    }
+
+    #self-port {
+        display: flex;
+        width: 55vw;
+    }
+    
+    #bio-box {
+        background-color: #dfab53;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #bio-h2 {
+        color: rgb(88, 76, 76);  
+        margin-top: 50px;
+    }
+    
+    #life {
+        color: black;
+        margin-top: 50px;
+    }
+    
+    #teachings a {
+        color: black;
+    }
+    
+    #life {
+        width: 45vw;
+        padding-left: 10px;
+    }
+
+
     /* Paintings */
     #pictures img {
         width: 95vw;
@@ -525,7 +563,6 @@ div.desc {
 
 
 /* Large devices (laptops and desktops, 992px and up) */
-
 @media screen and (min-width: 992px){
     /* General stylings */
     /* Header */
