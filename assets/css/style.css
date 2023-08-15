@@ -218,7 +218,7 @@ footer > h3 {
 
 
 /* Paintings */
-/* Image Gallery inspired from https: //www.w3schools.com/css/css_image_gallery.asp */
+/* Image Gallery inspired from https: //www.w3schools.com/css/css_image_gallery.asp and the masonry design style code presented in the Love Running project */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -392,6 +392,9 @@ div.desc {
         display: block;
         position: relative;
         font-size: 120%;
+        top:0;
+        box-shadow: none;
+        width: auto;
     }
 
     .burger-icon-label {
