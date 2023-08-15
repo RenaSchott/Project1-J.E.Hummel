@@ -371,7 +371,7 @@ div.desc {
 }
 
 /* Error pages */
- .error-image {
+ #error-image {
      background-image: url("assets/images/construction.webp");
      width: 100vw;
      height: auto;
@@ -379,7 +379,7 @@ div.desc {
      padding: 0;
  }
 
- h1-error {
+ #h1-error {
      padding: 30px;
      font-size: 230%;
      color: red;
@@ -387,7 +387,7 @@ div.desc {
      text-align: center;
  }
 
- p-error {
+ #p-error {
      margin: 20%;
      font-size: 180%;
      font-weight: bold;
