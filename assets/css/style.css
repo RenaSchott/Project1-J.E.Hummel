@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
     letter-spacing: 2px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 h1 {
@@ -50,6 +50,7 @@ header > img {
 #menu {
     list-style-type: none;
     height: 100%;
+    font-size: 110%;
 }
 
 /* remove underlining from link default */
@@ -69,6 +70,13 @@ header a {
 nav {
     position: absolute;
     display: none;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    top: 100%;
+    background-color: beige;
+    text-align: center;
 }
 
 /* Nav toggle */
@@ -99,7 +107,7 @@ main {
     background-color: #dfab53;
     margin: 0;
     padding: 20px 20px 100px;
-    /* scrollbar changes (https: //www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+    /* scrollbar changes inspired by https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
     /* width */
     ::-webkit-scrollbar {
         width: 10px;
