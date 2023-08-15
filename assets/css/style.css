@@ -219,25 +219,18 @@ footer > h3 {
 
 /* Paintings */
 /* Image Gallery inspired from https: //www.w3schools.com/css/css_image_gallery.asp and the masonry design style code presented in the Love Running project */
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 90%px;
+#pictures > h2 {
+    text-align: center;
+    font-size: 200%;
+    margin: 20px 0;
+    padding: 0px auto;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
+.desc {
     padding: 15px;
     text-align: center;
+    border: 1px solid black;
 }
 
 
@@ -425,6 +418,11 @@ div.desc {
         font-size: 120%;
     }
 
+
+    /* Paintings */
+    .gallery:hover {
+        border: 1px solid #777;
+    }
 
     /* Exhibition */
     .ex-break {
