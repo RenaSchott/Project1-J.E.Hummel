@@ -475,15 +475,12 @@ div.desc {
     #life {
         color: black;
         margin-top: 50px;
+        width: 45vw;
+        padding-left: 10px;
     }
     
     #teachings a {
         color: black;
-    }
-    
-    #life {
-        width: 45vw;
-        padding-left: 10px;
     }
 
 
@@ -602,10 +599,41 @@ div.desc {
         }
 
 
-    /* Biography */
-    #biography-jeh {
-        background-image: none;
+    /*Biography */
+    #self-port {
+        height: 75vh;
+        width: auto;
+        margin-left: 80px;
     }
+
+    #life {
+        margin-left: 80px;
+    }
+    
+    #bio-box {
+        margin: 0;
+        font-size: 160%;
+    }
+    
+    #bio-h2 {
+        margin-top: 0px;
+        font-size: 260%;
+    }
+    
+    .bio-life {
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+    }
+
+    .bio-content{
+        margin-left: 80px;
+    }
+    
+    #life h3, #life .bio-life {
+        padding-bottom: 20px;
+    }
+
 
     /* Paintings */
     #pa-h2 {
