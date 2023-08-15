@@ -198,24 +198,34 @@ footer > h3 {
 }
 
 #biography-jeh {
-    background-image: url("../../assets/images/selfportrait.webp");
+    background-image: url("../images/Selbstbildnis-1795.webp");
     height: 82vh;
+    width: auto;
     position: relative;
     background-position: center;
     background-size: cover;
+    z-index: 99;
 }
 
 #bio-h2 {
-    position: absolute;
+    text-align: center;
     top: 50px;
     color: white;
 }
 
 #life {
-    position: absolute;
-    top: 100px;
+    top: 70px;
     left: 10px;
     color: white;
+}
+
+#teachings a {
+    color: white;
+    text-decoration: none;
+}
+
+#life h3, .date {
+    text-align: center;
 }
 
 /* Anchor link color change */
