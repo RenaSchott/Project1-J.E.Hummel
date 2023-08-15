@@ -204,7 +204,11 @@ footer > h3 {
     position: relative;
     background-position: center;
     background-size: cover;
-    z-index: 99;
+}
+
+#bio-box {
+    background-color: rgba(68, 65, 65, 0.7);
+    margin: 10% auto;
 }
 
 #bio-h2 {
