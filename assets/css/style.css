@@ -223,18 +223,12 @@ footer > h3 {
 
 /* Paintings */
 /* Image Gallery inspired from https: //www.w3schools.com/css/css_image_gallery.asp and the masonry design style code presented in the Love Running project */
-#pictures > h2 {
-    margin: 20px 0;
-    padding: 0px auto;
-}
-
 #pictures > img {
     width: 90vw;
-    margin: 0 5vw;
+    border: 1px solid black;
+    margin-top: 5px;
 }
 .desc {
-    padding: 15px;
-    margin: 0 5vw;
     text-align: center;
     border: 1px solid black;
 }
