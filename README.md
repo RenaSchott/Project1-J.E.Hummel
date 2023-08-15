@@ -1,8 +1,4 @@
 
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-Copied from love running project 
+
+Inspired from the love running project, the https://www.w3schools.com/ site, and 
+https://codepen.io/ngochuynh/pen/yKrvVZ as well as the course content in general.
