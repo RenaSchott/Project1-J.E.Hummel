@@ -223,4 +223,13 @@ The content of this project was inspired by the Love Running project, the websit
 ### Media
 
 The hero image from the landing page were taken from Wikipedia (<https://de.wikipedia.org/wiki/Johann_Erdmann_Hummel>), while all the other images are copied out of the books from Georg Hummel ("Der Maler Erdmann Hummel. Leben und Werk." published in Leipzig, by VEB E.A. Seemann 1954) and Birgit Verwiebe ("Magische Spiegelungen Johann Erdmann Hummel" Nationalgalerie der Staatlichen Museen zu Berlin). The social media icons were taken from <https://fontawesome.com/>.
-                            
+
+
+## Acknowledgements
+- I thank would love to thank the following persons:
+  - My mentor for his support
+  - The Code Institute tutor support for their fast answers
+  - My facilitator for her support
+  - The slack community for their fast answers and support
+
+
