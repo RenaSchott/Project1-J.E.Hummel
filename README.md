@@ -15,12 +15,22 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 ## Features
 - **Header and Navigation**
 
-Text
+  - The navigation is in the top right corner of the page. 
+    - It includes anchor links to the landing, the biography, the paintings and the exhibition page.
+    - The color used fits well and is in the same time decent.
+    - The menu list imtem corresponding to the actual page is underlined and written in a slightly lighter color.
+  - The header includes in the middle the name of the person (J.E.Hummel) the site is about.
+  - Lastly a black and white self portrait of Johann Erdmann Hummel is used as a logo in the top left corner.
+  - The header section in total explaines the user what they can expect on the pages.
+  
 ![screenshot of the header](assets/readme-images/header.png)
 
 - **Footer**
 
-Text
+    - The footers start with a call to the users to encourage them to find more informations on other sites.
+    - Therefore icons for clickable icons for facebbook, twitter and Instagram which opens in a new tab were integrated.
+    - The header scetion tries to give options for the users to stay informned about Johann Erdmann Hummel. 
+
 ![screenshot of the footer](assets/readme-images/footer.png)
 
 - **Index page**
@@ -41,7 +51,7 @@ Text
 - **Exhibition page**
 
 Text
-![screenshot of the exhibition page](assets/readme-images/exhibition.png)
+![screenshot of the exhibitions page](assets/readme-images/exhibitions.png)
 
 - **Contactform page**
 
@@ -87,9 +97,6 @@ Here are the drawings of the wireframes:
 ![Drawing of the paintings page for large screens](assets/readme-images/wireframe4.webp)
 ![Drawing of the exhibitions page for large screens](assets/readme-images/wireframe5.webp)
 ![Drawing of the form page for large screens](assets/readme-images/wireframe6.png)
-
-
-
 
 
 ## Testing
@@ -144,5 +151,5 @@ The link to the live page can be found here: [Johann Erdmann Hummel] (<https://r
 The content of this project was inspired by the Love Running project, thw wesite <https://www.w3schools.com/> as well as the course content in general. On the other hand some specific inspiration were taken from <https://www.youtube.com/watch?v=Jj42_s3KnuM> for the 404 page and from https://codepen.io/ngochuynh/pen/yKrvVZ for the burger icon in the navbar in the heading.
 
 ### Media
-The hero image from the landing page were taken from wikipedia (<https://de.wikipedia.org/wiki/Johann_Erdmann_Hummel>), while all the other images are copied out of the books from Georg Hummel ("Der Maler Erdmann Hummel. Leben und Werk." published in Leipzig, by VEB E.A. Seemann 1954) and Birgit Verwiebe ("Magische Spiegelungen Johann Erdmann Hummel" Nationalgalerie der Staatlichen Museen zu Berlin). The favicon was drawn im gimp.
+The hero image from the landing page were taken from wikipedia (<https://de.wikipedia.org/wiki/Johann_Erdmann_Hummel>), while all the other images are copied out of the books from Georg Hummel ("Der Maler Erdmann Hummel. Leben und Werk." published in Leipzig, by VEB E.A. Seemann 1954) and Birgit Verwiebe ("Magische Spiegelungen Johann Erdmann Hummel" Nationalgalerie der Staatlichen Museen zu Berlin). The favicon was drawn im gimp. The social media icons were taken from <https://fontawesome.com/>.
                             
