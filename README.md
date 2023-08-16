@@ -122,6 +122,32 @@ Here are the drawings of the wireframes:
 ![Drawing of the form page for large screens](assets/readme-images/wireframe6.png)
 
 
+## Used Technologies
+
+### Languages Used
+- HTML
+- CSS
+
+### Framework, Libraries and Programs
+
+- no frameworks and libraries were used
+- GIMP 
+    - was used to create the favi-icon and to edit the images
+- Google fonts
+    - was used for integrating fonts
+- Github
+    - was used to store and deploy the project site
+- Codeanywhere
+    - was used to write the code and commit it to github
+- Am I responsive
+    - was used to check the responsiveness of the website
+- DevTools 
+    - were used to inspect the code during the development process and to check the accessebility
+- W3C CSS Validator (Jigsaw)
+    - was used to validate the css code
+- W3C HTML Validator
+    - was used to validate the HTML Code
+
 ## Testing
 
 
