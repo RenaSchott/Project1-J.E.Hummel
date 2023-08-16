@@ -14,9 +14,9 @@
     <!-- Title -->
     <title>Johann Erdmann Hummel</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favi-icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favi-icons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favi-icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favi-icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favi-icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favi-icons/favicon-16x16.png">
     <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/b5633ebce6.js" crossorigin="anonymous"></script>
     <!-- Stylesheet -->
@@ -27,7 +27,7 @@
     <!-- Header Section -->
     <header>
         <!-- Image source: book from Georg Hummel-->
-        <img src="assets/images/logo.webp" alt="black and white self portrait of Johann Erdmann Hummel" height="80vh">
+        <img src="assets/images/logo.webp" alt="black and white self portrait of Johann Erdmann Hummel">
         <h1>J.E. Hummel</h1>
         <!-- Burger-icon inspired by Love Running project-->
         <input type="checkbox" id="burger-icon" name="burger-icon">
@@ -48,52 +48,54 @@
     <main>
         <div id="form">
             <form action="https://contactform.mysite.net/" method="post">
-                <legend>Please fill out the applicable fields</legend>
-                <!-- exhibition or publication? -->
-                <div class="form-box">
-                    <p>1. Do you have news about a not mentioned exhibition or publication?</p>
-                    <input type="radio" id="exhibition" name="kind-of-info" value="exhibition" required>
-                    <label for="exhibition">Exhibition</label>
-                    <input type="radio" id="publication" name="kind-of-info" value="publication">
-                    <label for="publication">Publication</label>
-                    <p class="con-p">If you chose publication please go to question 4!</p>
-                </div>
-                <!-- shortterm or permanent exhibition -->
-                <div class="form-box">
-                    <p>2. What type of exhibition is it? (Only necessary if it is an information about an exhibition)</p>
-                    <input type="radio" id="short-exhibition" name="exhibition-type" value="short-exhibition">
-                    <label for="short-exhibition">Shortterm Exhibition</label>
-                    <br>
-                    <input type="radio" id="long-exhibition" name="exhibition-type" value="long-exhibition">
-                    <label for="long-exhibition">Permanent Exhibition</label>
-                    <p class="con-p">If you chose permanent exhibition please skip the next question!</p>
-                </div>
-                <!-- Start and end date of a shortterm exhibition -->
-                <div class="form-box">
-                    <p>3. What are the starting and end days of the shortterm exhibition?</p>
-                    <label for="start">Start Date:</label>
-                    <input type="date" id="start" name="start-date" value="start">
-                    <br>
-                    <label for="end">End Date:</label>
-                    <input type="date" id="end" name="end-date" value="end">
-                </div>
-                <!-- URL -->
-                <div class="form-box">
-                    <p>4. On which site can I find more informations?</p>
-                    <input type="url" id="site" name="site" placeholder="url" size="45" required>
-                    <label for="site"></label>
-                </div>
-                <!-- additional, optional information -->
-                <div class="form-box">
-                    <p>5. Do you want to give additional information? (optional)</p>
-                    <input type="text" id="add-info" name="add-info" placeholder="More information (optional)" size="45">
-                    <label for="add-info"></label>
-                </div>
-                <!-- Buttons -->
-                <div id="buttons-div">
-                    <input type="submit" value="Send" class="buttons">
-                    <input type="reset" value="Reset" class="buttons">
-                </div>
+                <fieldset>
+                    <legend>Please fill out the applicable fields</legend>
+                    <!-- exhibition or publication? -->
+                    <div class="form-box">
+                        <p>1. Do you have news about a not mentioned exhibition or publication?</p>
+                        <input type="radio" id="exhibition" name="kind-of-info" value="exhibition" required>
+                        <label for="exhibition">Exhibition</label>
+                        <input type="radio" id="publication" name="kind-of-info" value="publication">
+                        <label for="publication">Publication</label>
+                        <p class="con-p">If you chose publication please go to question 4!</p>
+                    </div>
+                    <!-- shortterm or permanent exhibition -->
+                    <div class="form-box">
+                        <p>2. What type of exhibition is it? (Only necessary if it is an information about an exhibition)</p>
+                        <input type="radio" id="short-exhibition" name="exhibition-type" value="short-exhibition">
+                        <label for="short-exhibition">Shortterm Exhibition</label>
+                        <br>
+                        <input type="radio" id="long-exhibition" name="exhibition-type" value="long-exhibition">
+                        <label for="long-exhibition">Permanent Exhibition</label>
+                        <p class="con-p">If you chose permanent exhibition please skip the next question!</p>
+                    </div>
+                    <!-- Start and end date of a shortterm exhibition -->
+                    <div class="form-box">
+                        <p>3. What are the starting and end days of the shortterm exhibition?</p>
+                        <label for="start">Start Date:</label>
+                        <input type="date" id="start" name="start-date" value="2023-08-01">
+                        <br>
+                        <label for="end">End Date:</label>
+                        <input type="date" id="end" name="end-date" value="2023-08-01">
+                    </div>
+                    <!-- URL -->
+                    <div class="form-box">
+                        <p>4. On which site can I find more informations?</p>
+                        <input type="url" id="site" name="site" placeholder="url" size="45" required>
+                        <label for="site"></label>
+                    </div>
+                    <!-- additional, optional information -->
+                    <div class="form-box">
+                        <p>5. Do you want to give additional information? (optional)</p>
+                        <input type="text" id="add-info" name="add-info" placeholder="More information (optional)" size="45">
+                        <label for="add-info"></label>
+                    </div>
+                    <!-- Buttons -->
+                    <div id="buttons-div">
+                        <input type="submit" value="Send" class="buttons">
+                        <input type="reset" value="Reset" class="buttons">
+                    </div>
+                </fieldset>
             </form>
         </div>
     </main>
