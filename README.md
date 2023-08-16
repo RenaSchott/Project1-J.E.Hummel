@@ -12,7 +12,9 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 
 [Is my site responsive?](assets/readme-images/am-I-responsive.png)
 
+
 ## Features
+
 - **Header and Navigation**
 
   - The navigation is in the top right corner of the page. 
@@ -81,6 +83,7 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
     - Getting in touch with the user should make the user interested in comming back.
 ![screenshot of the contactform page](assets/readme-images/contactform.png)
 
+
 ## Features left to implement
 
 In the future more paintings, more details about former exhibitions and more content will be added to the biography page.
@@ -96,7 +99,9 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
 This site wants to show the users the beautifull paintings of Johann Erdmann Hummel as well as some facts about the painter.
 
 ### User stories
+
 #### As a visitor
+
 - I want to find more information on Johann Erdmann Hummel.
 - I want to learn something about his life.
 - I want to see some of his paintings.
@@ -107,11 +112,13 @@ This site wants to show the users the beautifull paintings of Johann Erdmann Hum
 - I want to be able to share some missing information with the site owner.
 
 #### As the administrator
+
 - I want to get informed by users of the site of missing exhibitions and publications.
 - I want to be able to easily add new information on the page.
 - I want to be able to edit the existing information. 
 
 ### Wireframes
+
 Here are the drawings of the wireframes:
 
 ![Drawings of all pages on mobile phones](assets/readme-images/wireframe1.webp)
@@ -122,9 +129,10 @@ Here are the drawings of the wireframes:
 ![Drawing of the form page for large screens](assets/readme-images/wireframe6.png)
 
 
-## Used Tec
-hnologies
+## Used Technologies
+
 ### Languages Used
+
 - HTML
 - CSS
 
@@ -201,12 +209,13 @@ The deployment was done using <https://github.com/>
 The link to the live page can be found here: [Johann Erdmann Hummel] (<https://renaschott.github.io/Project1-J.E.Hummel/>)
 
 
-
 ## Credits
 
 ### Content
+
 The content of this project was inspired by the Love Running project, thw wesite <https://www.w3schools.com/> as well as the course content in general. On the other hand some specific inspiration were taken from <https://www.youtube.com/watch?v=Jj42_s3KnuM> for the 404 page and from https://codepen.io/ngochuynh/pen/yKrvVZ for the burger icon in the navbar in the heading.
 
 ### Media
+
 The hero image from the landing page were taken from wikipedia (<https://de.wikipedia.org/wiki/Johann_Erdmann_Hummel>), while all the other images are copied out of the books from Georg Hummel ("Der Maler Erdmann Hummel. Leben und Werk." published in Leipzig, by VEB E.A. Seemann 1954) and Birgit Verwiebe ("Magische Spiegelungen Johann Erdmann Hummel" Nationalgalerie der Staatlichen Museen zu Berlin). The favicon was drawn im gimp. The social media icons were taken from <https://fontawesome.com/>.
                             
