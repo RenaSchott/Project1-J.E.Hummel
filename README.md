@@ -1,5 +1,5 @@
 # Johann Erdmann Hummel
-<hr>
+
 Text über die Seite
 
 View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
@@ -7,7 +7,7 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 [Is my site responsive?](assets/readme-images/am-I-responsive.png)
 
 ## Features
-<hr>
+
 
 - **Navigation**
 
@@ -50,7 +50,7 @@ Text
 screenshot
 
 ## Testing
-<hr>
+
 
 - nnnn
 
@@ -74,15 +74,17 @@ No unfixed bugs
 
 
 ## Deployment
-<hr>
+
+The deployment was done using 
+- This site was deployed using the following steps in github.
 
 
 
 ## Credits
-<hr>
 
 ### Content
-Inspired from the love running project, the <https://www.w3schools.com/> site, <https://www.youtube.com/watch?v=Jj42_s3KnuM> and
-https://codepen.io/ngochuynh/pen/yKrvVZ as well as the course content in general.
+The content of this project was inspired by the Love Running project, thw wesite <https://www.w3schools.com/> as well as the course content in general. On the other hand some specific inspiration were taken from <https://www.youtube.com/watch?v=Jj42_s3KnuM> for the 404 page and from https://codepen.io/ngochuynh/pen/yKrvVZ for the burger icon in the navbar in the heading.
 
 ### Media
+The hero image from the landing page were taken from wikipedia (<https://de.wikipedia.org/wiki/Johann_Erdmann_Hummel>), while all the other images are copied out of the books from Georg Hummel ("Der Maler Erdmann Hummel. Leben und Werk." published in Leipzig, by VEB E.A. Seemann 1954) and Birgit Verwiebe ("Magische Spiegelungen Johann Erdmann Hummel" Nationalgalerie der Staatlichen Museen zu Berlin). The favicon was drawn im gimp.
+                            
