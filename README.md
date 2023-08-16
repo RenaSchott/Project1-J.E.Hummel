@@ -34,13 +34,18 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 ![screenshot of the footer](assets/readme-images/footer.png)
 
 - **Index page**
-
-Text
+    
+    - Therefore a beautifully drawn landscape with a castle in the background and people walking around naturally is used as a background image.
+    - And few dates are listed together with the nickname of the painter to show the user his speciality.
+    - All in all the landing page wants to give an appealing and interesting summary and wants to encourage the user to explore the website.
 ![screenshot of the index page](assets/readme-images/index.png)
 
 - **Biography page**
 
-Text
+    - Few important dates and facts were listed.
+    - The background of the biography page is a self portrait of the young Johann Erdmann Hummel.
+    - To make sure the text is readable the div for the text was a background color assignesd.
+    - By listing up some important dates and the corresponding facts as well as showing his the user be able to connect with him and should get a feeling of his life.
 ![screenshot of the biography page](assets/readme-images/biography.png)
 
 - **Paintings page**
