@@ -122,8 +122,8 @@ Here are the drawings of the wireframes:
 ![Drawing of the form page for large screens](assets/readme-images/wireframe6.png)
 
 
-## Used Technologies
-
+## Used Tec
+hnologies
 ### Languages Used
 - HTML
 - CSS
@@ -147,9 +147,17 @@ Here are the drawings of the wireframes:
     - was used to validate the css code
 - W3C HTML Validator
     - was used to validate the HTML Code
+- Languagetool
+  - was used to check the spelling and grammar in the readme file.
+  
 
 ## Testing
 
+- The site was tested on different browsers: Chrome and Firefox.
+- The DevTool confirmed that the page looks good and is functional on different screen sizes.
+- I confirmed that the page is readable.
+- The menu is easy to understand.
+- I confirmed the function of the form page.
 
 ### Validator testing
 
