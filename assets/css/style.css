@@ -228,7 +228,7 @@ footer > h3 {
     text-decoration: none;
 }
 
-#life h3, .date {
+#life h3, .date, .bio-content {
     text-align: center;
 }
 
@@ -336,46 +336,6 @@ legend {
     background-color: rgb(194, 173, 173);
 }
 
-
-/* Johann Friedrich Hummel page */
-#main-jfh {
-    display: flex;
-    flex-direction: column;
-}
-
-#jfh {
-    text-align: center;
-}
-
-.jfhummel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* Image Gallery from https: //www.w3schools.com/css/css_image_gallery.asp */
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
 /* Error pages */
  #error-image {
      background-image: url("assets/images/construction.webp");
@@ -473,6 +433,10 @@ div.desc {
     
     #teachings a {
         color: black;
+    }
+
+    .bio-content {
+        text-align: left;
     }
 
 
