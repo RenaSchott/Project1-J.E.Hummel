@@ -68,11 +68,17 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
     - The last section is a call to contribute to this page by clicking on the links to the form page.
     - This page is also scrollable designed.
     - The same background color as on the paintings section is used.
+    - The user should feel encouraged to go out and look at the paintings in person as well as to keep an eye on new information and inform me.
 ![screenshot of the exhibitions page](assets/readme-images/exhibitions.png)
 
 - **Contactform page**
 
-Text
+    - In the contact form the user can choose wheter the user found a new publication or exhibition.
+    - More informations can be filled in as well as there is a text field where the user can decide on the users own what to write.
+    - Throughout the contact form the user is guided on which question to answer next when the user can skip one or some.
+    - The user is allowed to skip some question on his own.
+    - Filling in whether the user has information on an exhibition or and publication and the url link to the respective site is mandatory. 
+    - Getting in touch with the user should make the user interested in comming back.
 ![screenshot of the contactform page](assets/readme-images/contactform.png)
 
 ## Features left to implement
