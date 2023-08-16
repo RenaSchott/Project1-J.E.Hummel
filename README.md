@@ -67,15 +67,23 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
 ## UX
 
 ### Site goals
-
+This site wants to show the users the beautifull paintings of Johann Erdmann Hummel as well as some facts about the painter.
 
 ### User stories
 #### As a visitor
-
+- I want to find more information on Johann Erdmann Hummel.
+- I want to learn something about his life.
+- I want to see some of his paintings.
+- I want to know where I can find more informations about him (publications).
+- I want to know where I can go to see his paintings.
+- I want to access these information easily.
+- For that I want a well ordered menu.
+- I want to be able to share some missing information with the site owner.
 
 #### As the administrator
-
-
+- I want to get informed by users of the site of missing exhibitions and publications.
+- I want to be able to easily add new information on the page.
+- I want to be able to edit the existing information. 
 
 ### Wireframes
 Here are the drawings of the wireframes:
