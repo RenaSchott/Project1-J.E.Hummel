@@ -74,7 +74,11 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
   - fioewfh
 
 - **Accessibility**
-  - jeojdf
+  - The accessibility of the project was confirmed by using lighthouse in the DevTools
+
+![Image of the lighthouse performance](assets/readme-images/lighthouse.png)
+
+  - In the future the size of the images has to be downgraded in an apropriate way to raise the performance  
 
 ### Unfixed bugs
 
