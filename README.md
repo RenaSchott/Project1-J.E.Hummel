@@ -68,10 +68,10 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
 ### Validator testing
 
 - **HTML**
-  - jhsdflqa
+  - No errors found when using W3C HTML Validator.
   
 - **CSS**
-  - during the testing with jigsaw <https://jigsaw.w3.org/css-validator/validator> the following error and warnings were found:
+  - During the testing with W3C CSS Validator (Jigsaw) the following error and warnings were found:
   
 ![CSS Error](assets/readme-images/css-fehler.png "CSS error")
 
