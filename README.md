@@ -75,8 +75,19 @@ No unfixed bugs
 
 ## Deployment
 
-The deployment was done using 
-- This site was deployed using the following steps in github.
+The deployment was done using <https://github.com/>
+- For this the following steps were used:
+  - Open the appropriate git hub repository
+  - Click on the Settings tab in the navigation
+  - Open Pages in the dropdown menu
+  - Do the following steps in the Build and deployment section
+    - Select "deploy from branch" in source
+    - Select "main" in select branch
+    - Select "/(root)" in select folder
+    - Finally push the save button
+  - From now onwards the deployed site can be visited using the link provided on top of the page
+
+The link to the live page can be found here: [Johann Erdmann Hummel] (<https://renaschott.github.io/Project1-J.E.Hummel/>)
 
 
 
