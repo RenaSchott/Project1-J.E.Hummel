@@ -1,6 +1,12 @@
 # Johann Erdmann Hummel
 
-Text über die Seite
+This website is about an ancestor of mine. Johann Erdmann Hummel was a painter in the hist. Biedermeier time in Berlin. As a professor he had influence
+on future generations in art and architecture with his talents in drawing different perspectives. 
+
+Users of this website will find different informations about J.E. Hummel as a short summary together with an appealing painting
+og his on the landing page. More informations are on the respective sites (Biography, Paintings and Exhibitions). Very one is encouraged to participate
+in spreading the word of new or old exhibitions and publications by using the respective contact form.
+In general, this site was written for users interested in Biedermeier Art.
 
 View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 
@@ -55,15 +61,10 @@ In the future more paintings, more details about former exhibitions and more con
 Furthermore a site about his son Fritz Hummel will be built and a link integrated into the biography page. The look of the Fritz Hummel page
 can be seen on the fifth scretch of the wireframes for mobile size and in the image below.
 
-![The wireframe of the Fritz Hummel page](assets/readme-images/wireframe6.webp)
+![The wireframe of the Fritz Hummel page](assets/readme-images/wireframe7.png)
 
 ## Testing
 
-
-- nnnn
-
-### Bugs
-#### Solved Bugs
 
 ### Validator testing
 
