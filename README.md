@@ -50,7 +50,11 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 
 - **Paintings page**
 
-Text
+    - The paintings sections displays a few of his beautifull painting and drawings.
+    - The names and dates of the paintings and drawing are listed in the corresponding box right underneath the image.
+    - The page is designed scrollable.
+    - The paintings pages does not want to distract the user with images packed in a row. That is why this page in the responsive design does not show images next to each other.
+    - By viewing the paintings page the user should get interested in more in formations like exhibions and publications.
 ![screenshot of the paintings page](assets/readme-images/paintings.png)
 
 - **Exhibition page**
