@@ -63,6 +63,34 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
 
 ![The wireframe of the Fritz Hummel page](assets/readme-images/wireframe7.png)
 
+
+## UX
+
+### Site goals
+
+
+### User stories
+#### As a visitor
+
+
+#### As the administrator
+
+
+
+### Wireframes
+Here are the drawings of the wireframes:
+
+![Drawings of all pages on mobile phones](assets/readme-images/wireframe1.webp)
+![Drawing of the landing page for large screens](assets/readme-images/wireframe2.webp)
+![Drawing of the biography page for large screens](assets/readme-images/wireframe3.webp)
+![Drawing of the paintings page for large screens](assets/readme-images/wireframe4.webp)
+![Drawing of the exhibitions page for large screens](assets/readme-images/wireframe5.webp)
+![Drawing of the form page for large screens](assets/readme-images/wireframe6.png)
+
+
+
+
+
 ## Testing
 
 
