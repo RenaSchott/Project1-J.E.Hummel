@@ -49,6 +49,14 @@ screenshot
 Text
 screenshot
 
+## Future Features
+
+In the future more paintings, more details about former exhibitions and more content will be added to the biography page.
+Furthermore a site about his son Fritz Hummel will be built and a link integrated into the biography page. The look of the Fritz Hummel page
+can be seen on the fifth scretch of the wireframes for mobile size and in the image below.
+
+![The wireframe of the Fritz Hummel page](assets/readme-images/wireframe6.webp)
+
 ## Testing
 
 
