@@ -13,47 +13,40 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 [Is my site responsive?](assets/readme-images/am-I-responsive.png)
 
 ## Features
-
-
-- **Navigation**
+- **Header and Navigation**
 
 Text
-screenshot
-
-- **Header**
-
-Text
-screenshot
+![screenshot of the header](assets/readme-images/header.png)
 
 - **Footer**
 
 Text
-screenshot
+![screenshot of the footer](assets/readme-images/footer.png)
 
 - **Index page**
 
 Text
-screenshot
+![screenshot of the index page](assets/readme-images/index.png)
 
 - **Biography page**
 
 Text
-screenshot
+![screenshot of the biography page](assets/readme-images/biography.png)
 
 - **Paintings page**
 
 Text
-**screenshot**
+![screenshot of the paintings page](assets/readme-images/paintings.png)
 
 - **Exhibition page**
 
 Text
-screenshot
+![screenshot of the exhibition page](assets/readme-images/exhibition.png)
 
 - **Contactform page**
 
 Text
-screenshot
+![screenshot of the contactform page](assets/readme-images/contactform.png)
 
 ## Features left to implement
 
