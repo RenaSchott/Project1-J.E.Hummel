@@ -21,6 +21,7 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
     - The menu list imtem corresponding to the actual page is underlined and written in a slightly lighter color.
   - The header includes in the middle the name of the person (J.E.Hummel) the site is about.
   - Lastly a black and white self portrait of Johann Erdmann Hummel is used as a logo in the top left corner.
+  - The background color is beige.
   - The header section in total explaines the user what they can expect on the pages.
   
 ![screenshot of the header](assets/readme-images/header.png)
@@ -29,6 +30,7 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 
     - The footers start with a call to the users to encourage them to find more informations on other sites.
     - Therefore icons for clickable icons for facebbook, twitter and Instagram which opens in a new tab were integrated.
+    - The footer has the same background color as the header.
     - The header scetion tries to give options for the users to stay informned about Johann Erdmann Hummel. 
 
 ![screenshot of the footer](assets/readme-images/footer.png)
@@ -54,12 +56,18 @@ View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
     - The names and dates of the paintings and drawing are listed in the corresponding box right underneath the image.
     - The page is designed scrollable.
     - The paintings pages does not want to distract the user with images packed in a row. That is why this page in the responsive design does not show images next to each other.
+    - The brown background color matches the beige background color of the footer and header.
     - By viewing the paintings page the user should get interested in more in formations like exhibions and publications.
 ![screenshot of the paintings page](assets/readme-images/paintings.png)
 
 - **Exhibition page**
 
-Text
+    - As the final big page the exhibition page lists the permanent exhibition with the museum name, address and an image of the location on google maps.
+    - The short term exhibition section gives the user information of actual or past exhibitions.
+    - The publication section shows the user were to find additional informations.
+    - The last section is a call to contribute to this page by clicking on the links to the form page.
+    - This page is also scrollable designed.
+    - The same background color as on the paintings section is used.
 ![screenshot of the exhibitions page](assets/readme-images/exhibitions.png)
 
 - **Contactform page**
