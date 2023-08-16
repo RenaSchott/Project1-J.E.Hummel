@@ -10,8 +10,6 @@ In general, this site was written for users interested in Biedermeier Art.
 
 View the live project here: https://renaschott.github.io/Project1-J.E.Hummel/
 
-[Is my site responsive?](assets/readme-images/am-I-responsive.png)
-
 
 ## Features
 
@@ -177,7 +175,7 @@ Here are the drawings of the wireframes:
   
 ![CSS Error](assets/readme-images/css-fehler.png "CSS error")
 
-![CSS Warning](assets/readme-images/css-warnung.png "CSS warnings")
+![CSS Warning](assets/readme-images/css-warnungen.png "CSS warnings")
 
 - **Accessibility**
   - The accessibility of the project was confirmed by using lighthouse in the DevTools
