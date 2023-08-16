@@ -49,7 +49,7 @@ screenshot
 Text
 screenshot
 
-## Future Features
+## Features left to implement
 
 In the future more paintings, more details about former exhibitions and more content will be added to the biography page.
 Furthermore a site about his son Fritz Hummel will be built and a link integrated into the biography page. The look of the Fritz Hummel page
@@ -71,7 +71,11 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
   - jhsdflqa
   
 - **CSS**
-  - fioewfh
+  - during the testing with jigsaw <https://jigsaw.w3.org/css-validator/validator> the following error and warnings were found:
+  
+![CSS Error](assets/readme-images/css-fehler.png "CSS error")
+
+![CSS Warning](assets/readme-images/css-warnung.png "CSS warnings")
 
 - **Accessibility**
   - The accessibility of the project was confirmed by using lighthouse in the DevTools
@@ -82,7 +86,8 @@ can be seen on the fifth scretch of the wireframes for mobile size and in the im
 
 ### Unfixed bugs
 
-No unfixed bugs
+The CSS error describted were fixed because of the opening tag in line 112.
+The CSS warnings are acceptable.
 
 
 ## Deployment
