@@ -55,7 +55,7 @@ header > img {
 /* remove dots from list element */
 #menu {
     list-style-type: none;
-    height: 9vh;
+    height: 100%;
     font-size: 110%;
 }
 
@@ -413,7 +413,7 @@ div.desc {
     nav {
         display: block;
         position: relative;
-        font-size: 120%;
+        font-size: 100%;
         top:0;
         box-shadow: none;
         width: auto;
